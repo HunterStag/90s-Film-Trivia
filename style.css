@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right, #ff71ce 0%, #01cdfe 100%);
+    color: #ffffff; /* white text */
+    font-family: 'Courier New', Courier, monospace; /* retro monospace font */
+}
+
+.navbar {
+    height: 200px; /* decrease this value to reduce the height of the navbar */
+    /* the rest of your navbar styles */
+}
+
+.navbar {
+    position: relative; /* This allows you to use position absolute for its child elements */
+    /* Your existing styles */
+}
+
+.navbar-title {
+    position: absolute; /* This positions the title absolutely within the navbar */
+    top: 50%; /* These two lines center the title vertically within the navbar */
+    transform: translateY(-50%);
+    width: 100%; /* This makes sure the title spans the whole width of the navbar */
+    text-align: center; /* This centers the title text */
+    font-size: larger;
+    color: rgba(81, 4, 76, 0.776); /* This makes the text white so it stands out on the image */
+}
+
+h1 {
+    font-size: 3em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #39ff14, #3333ff); /* neon green to blue gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+#navbar-image {
+
+        width: 100%; /* this will cover the full width of the navbar */
+        height: 100%; /* this will cover the full height of the navbar */
+        object-fit: cover; /* this will ensure the image covers the entire space without distorting the aspect ratio */
+    }
+    
+
+
+
+
+
+.option {
+    cursor: pointer;
+    border: 2px solid #333; /* Change to your preferred color */
+    padding: 10px; /* Add some space between the text and the border */
+    margin-bottom: 10px; /* Add some space between options */
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;  /* decreased from 10px */
+    position: relative;
+    width: 100%;
+}

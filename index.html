@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>90s Film Hardcore Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #trivia {
+            width: 600px;
+            margin: auto;
+        }
+        #question {
+            margin-bottom: 10px;
+        }
+        .option {
+            margin-bottom: 5px;
+        }
+        #score {
+            margin-top: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            color: white;
+            padding: 14px 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="moviebanner1.png" alt="picture of Home Alone, Clueless, and Groundhog Day" id="navbar-image">
+        <div class="navbar-title">
+        <h1>90s Movie Trivia</h1>
+        </div>
+    </div>
+
+    <div id="trivia">
+        <h2>Welcome to the most hardcore 90s film trivia game of all time</h1>
+        <p>Test your knowledge about classic films of the 90s! Choose the correct answer and see your final score at the end!</p>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="feedback"></div>
+
+        <button id="next" disabled>Next</button>
+        <div id="score"></div>
+    </div>
+
+    <div class="footer">
+        <p>Created by Hunter Stag. All rights reserved.</p>
+    </div>
+
+    <script src="trivialogic.js"></script>
+</body>
+</html>
+
