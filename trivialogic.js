@@ -35,7 +35,7 @@ let questions = [
     }
     {
         question: "Which 90s film was Joe Pesci NOT in?",
-        options: ["Casino", "Home Alone", "Goodfellas, "Heat",],
+        options: ["Casino", "Home Alone", "Goodfellas," "Heat"],
         answer: 3
     },
 
