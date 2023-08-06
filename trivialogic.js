@@ -42,24 +42,31 @@ let score = 0;
 let answered = false;  
 
 function showQuestion() {
-    let q = questions[currentQuestion];
-    document.getElementById('question').textContent = q.question;
+    //let q = questions[currentQuestion];
+    let randomQ = questions[Math.floor(Math.random() * questions.length)]
+    console.log(randomQ)
+  // console.log(questions[Math.floor(Math.random() * questions.length)])
+
+    document.getElementById('question').textContent = randomQ.question;
+    //console.log(randomQ.question)
     let options = document.getElementById('options');
     options.innerHTML = '';
-    for(let i=0; i<q.options.length; i++) {
+    for(let i=0; i<randomQ.options.length; i++) {
         let div = document.createElement('div');
-        div.textContent = q.options[i];
+        
+        div.textContent = randomQ.options[i];
+       // console.log(randomQ.options[i], "the correct answer")
         div.classList.add('option');
         div.onclick = function() {
             if(answered) { return; }  // new
             answered = true;  // new
             document.getElementById('next').disabled = false;
             let feedback = document.getElementById('feedback');
-            if(i === q.answer) {
+            if(i === randomQ.answer) {
                 score++;
                 feedback.textContent = "Correct!"; 
             } else {
-                feedback.textContent = "Incorrect. The correct answer was: " + q.options[q.answer]; 
+                feedback.textContent = "Incorrect. The correct answer was: " + randomQ.options[randomQ.answer]; 
             }
         };
         options.appendChild(div);
