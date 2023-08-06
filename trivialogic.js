@@ -33,11 +33,7 @@ let questions = [
         options: ["Happiness", "Natural Born Killers", "Boogie Nights", "Dazed and Confused",],
         answer: 0
     }
-    {
-        question: "Which 90s film was Joe Pesci NOT in?",
-        options: ["Casino", "Home Alone", "Goodfellas", "Heat"],
-        answer: 3
-    },
+    
 
 ];
 
