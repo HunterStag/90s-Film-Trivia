@@ -38,7 +38,7 @@ let questions = [
 
 let currentQuestion = 0;
 let score = 0;
-let answered = false;  // new
+let answered = false;  
 
 function showQuestion() {
     let q = questions[currentQuestion];
@@ -56,9 +56,9 @@ function showQuestion() {
             let feedback = document.getElementById('feedback');
             if(i === q.answer) {
                 score++;
-                feedback.textContent = "Correct!";  // new
+                feedback.textContent = "Correct!"; 
             } else {
-                feedback.textContent = "Incorrect. The correct answer was: " + q.options[q.answer];  // new
+                feedback.textContent = "Incorrect. The correct answer was: " + q.options[q.answer]; 
             }
         };
         options.appendChild(div);
@@ -67,8 +67,8 @@ function showQuestion() {
 
 document.getElementById('next').onclick = function() {
     currentQuestion++;
-    answered = false;  // new
-    document.getElementById('feedback').textContent = '';  // new
+    answered = false;  
+    document.getElementById('feedback').textContent = '';  
     if(currentQuestion >= questions.length) {
         document.getElementById('score').textContent = 'Score: ' + score;
     } else {
