@@ -1,5 +1,5 @@
 # HunterStag.github.io
-I am 90s film fanatic. I also really love Trivia games. I grew up watching Jeopardy with my parents every night and got heavily into Trivia Games like Quizlet. I hope to continue working on this project and perhaps make more nostalgic trivia games in the future!
+I am a 90s film fanatic. I also really love Trivia games. I grew up watching Jeopardy with my parents every night and got heavily into Trivia Games like Quizlet. It was only natural to create my own trivia game with a high level of difficulty. I hope to continue working on this project and perhaps make more nostalgic trivia games in the future!
 
 
 ## Deployment
