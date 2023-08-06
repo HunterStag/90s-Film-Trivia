@@ -1,27 +1,26 @@
 body {
     background: linear-gradient(to right, #ff71ce 0%, #01cdfe 100%);
-    color: #ffffff; /* white text */
-    font-family: 'Courier New', Courier, monospace; /* retro monospace font */
+    color: #ffffff; 
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .navbar {
-    height: 200px; /* decrease this value to reduce the height of the navbar */
-    /* the rest of your navbar styles */
+    height: 200px;
+    
 }
 
 .navbar {
-    position: relative; /* This allows you to use position absolute for its child elements */
-    /* Your existing styles */
+    position: relative; 
 }
 
 .navbar-title {
-    position: absolute; /* This positions the title absolutely within the navbar */
-    top: 50%; /* These two lines center the title vertically within the navbar */
+    position: absolute; 
+    top: 50%; 
     transform: translateY(-50%);
-    width: 100%; /* This makes sure the title spans the whole width of the navbar */
-    text-align: center; /* This centers the title text */
+    width: 100%; 
+    text-align: center; 
     font-size: larger;
-    color: rgba(81, 4, 76, 0.776); /* This makes the text white so it stands out on the image */
+    color: rgba(81, 4, 76, 0.776); 
 }
 
 h1 {
@@ -52,8 +51,8 @@ h1 {
 
 .option {
     cursor: pointer;
-    border: 2px solid #333; /* Change to your preferred color */
-    padding: 10px; /* Add some space between the text and the border */
+    border: 2px solid #333; 
+    padding: 10px;
     margin-bottom: 10px; /* Add some space between options */
 }
 .footer {
